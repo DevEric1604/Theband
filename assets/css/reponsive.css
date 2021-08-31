@@ -1,0 +1,83 @@
+/* Mobile */
+
+@media(max-width:740px) {
+    #header {
+        overflow: hidden;
+        max-width: 414px;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #slider {
+        min-height: 200px;
+    }
+    #slider .img-slider {
+        width: 100%;
+        height: 100%;
+    }
+    #content .team-name {
+        display: block;
+    }
+    #tour .content-section {
+        width: 100%;
+        height: 1750px;
+        padding: 8px;
+    }
+    #tour .place-item {
+        width: 100%;
+    }
+    #contact .content-section {
+        padding: 64px 16px;
+    }
+    .contact-form .contact-form-down {
+        width: 180px;
+        height: 40px;
+        margin: 0 2px;
+    }
+    #tour .place-list {}
+    .contact-form .send-btn {
+        margin-left: 59.5%;
+        margin-top: 29%;
+    }
+    .road-map {
+        min-height: 240px;
+    }
+    #contact .content-section {
+        width: 100%;
+        min-height: 650px;
+    }
+    #contact .contact-form-control {
+        display: block;
+        width: 100%;
+        height: 285px;
+    }
+    #contact .about-form-control {
+        justify-content: center;
+    }
+    #contact .contact-form-left {
+        width: 382px;
+    }
+}
